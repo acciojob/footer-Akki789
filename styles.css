@@ -1,1 +1,99 @@
 /* your code here */
+footer {
+  background: #111;
+  color: #fff;
+  padding: 40px 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+footer .content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+
+
+footer .logo-details .logo_name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer .media-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  transition: color 0.3s;
+}
+
+footer .media-icons a:hover {
+  color: #00aaff;
+}
+
+footer .link-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer .box {
+  list-style: none;
+  margin: 15px 0;
+  width: 22%;
+  min-width: 180px;
+}
+
+footer .box .link_name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+footer .box li {
+  margin: 8px 0;
+}
+
+footer .box li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+footer .box li a:hover {
+  color: #fff;
+}
+
+.bottom-details {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.bottom-details .bottom_text {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.bottom-details a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  footer .link-boxes {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .box {
+    width: 100%;
+  }
+}
